@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <name>Hapus CMS</name>
+  <groupId>lab.aikibo</groupId>
+  <artifactId>hapus-cms</artifactId>
+  <version>1</version>
+</project>
