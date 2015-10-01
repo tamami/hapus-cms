@@ -1,3 +1,7 @@
+<!--
+ # kalo mau jalankan ini, pake perintah ini :
+ # mvn exec:java -Dexec.mainClass=lab.aikibo.main.App
+-->
 <project>
   <modelVersion>4.0.0</modelVersion>
   <name>Hapus CMS</name>
