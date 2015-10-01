@@ -14,7 +14,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12></version>
+      <version>4.12</version>
     </dependency>
 
     <!-- Oracle driver -->
@@ -31,7 +31,7 @@
       <version>5.0.1.Final</version>
     </dependency>
 
-    <!-- Hibernate library dependency -- start -->
+    <!-- Hibernate library dependency start -->
     <dependency>
       <groupId>dom4j</groupId>
       <artifactId>dom4j</artifactId>
@@ -55,7 +55,7 @@
       <artifactId>cglib-nodep</artifactId>
       <version>3.1</version>
     </dependency>
-    <!-- Hibernate library dependency -- end -->
+    <!-- Hibernate library dependency end -->
 
     <dependency>
       <groupId>javax.transaction</groupId>
