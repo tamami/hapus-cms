@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping
+  SYSTEM "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-mapping>
+  <class name="lab.aikibo.entity.Sppt" table="SPPT">
+    <composite-id>
+      <key-property name="kdPropinsi" column="kd_propinsi" type="string" />
+      <key-property name="kdDati2" column="kd_dati2" type="string" />
+      <key-property name="kdKecamatan" column="kd_kecamatan" type="string"/>
+      <key-property name="kdKelurahan" column="kd_kelurahan" type="string" />
+      <key-property name="kdBlok" column="kd_blok" type="string" />
+      <key-property name="noUrut" column="no_urut" type="string" />
+      <key-property name="kdJnsOp" column="kd_jns_op" type="string" />
+      <key-property name="thnPajakSppt" column="thn_pajak_sppt" type="string" />
+    </composite-id>
+    <property name="siklusSppt" type="int">
+      <column name="siklus_sppt" />
+    </property>
+    <property name="kdKanwilBank" type="string">
+      <column name="kd_kanwil_bank" />
+    </property>
+    <property name="kdKppbbBank" type="string">
+      <column name="kd_kppbb_bank" />
+    </property>
+    <property name="kdBankTunggal" type="string">
+      <column name="kd_bank_tunggal" />
+    </property>
+    <property name="kdBankPersepsi" type="string">
+      <column name="kd_bank_persepsi" />
+    </property>
+    <property name="kdTp" type="string">
+      <column name="kd_tp" />
+    </property>
+    <property name="nmWpSppt" type="string">
+      <column name="nm_wp_sppt" />
+    </property>
+    <property name="jlnWpSppt" type="string">
+      <column name="jln_wp_sppt" />
+    </property>
+    <property name="blokKavNoWpSppt" type="string">
+      <column name="blok_kav_no_wp_sppt" />
+    </property>
+    <property name="rwWpSppt" type="string">
+      <column name="rw_wp_sppt" />
+    </property>
+    <property name="rtWpSppt" type="string">
+      <column name="rt_wp_sppt" />
+    </property>
+    <property name="kelurahanWpSppt" type="string">
+      <column name="kelurahan_wp_sppt" />
+    </property>
+    <property name="kotaWpSppt" type="string">
+      <column name="kota_wp_sppt" />
+    </property>
+    <property name=kdPosWpSppt" type="string">
+      <column name="kd_pos_wp_sppt" />
+    </property>
+    <property name="npwpSppt" type="string">
+      <column name="npwp_sppt" />
+    </property>
+    <property name="noPersilSppt" type="string">
+      <column name="no_persil_sppt" />
+    </property>
+    <property name="kdKlsTanah" type="string">
+      <column name="kd_kls_tanah" />
+    </property>
+    <property name="thnAwalKlsTanah" type="string">
+      <column name="thn_awal_kls_tanah" />
+    </property>
+    <property name="kdKlsBng" type="string">
+      <column name="kd_kls_bng" />
+    </property>
+    <property name="thnAwalKlsBng" type="string">
+      <column name="thn_awal_kls_bng" />
+    </property>
+    <property name="tglJatuhTempoSppt" type="date">
+      <column name="tgl_jatuh_tempo_sppt" />
+    </property>
+    <property name="luasBumiSppt" type="int">
+      <column name="luas_bumi_sppt" />
+    </property>
+    <property name="luasBngSppt" type="int">
+      <column name="luas_bng_sppt" />
+    </property>
+    <property name="njopBumiSppt" type="int">
+      <column name="njop_bumi_sppt" />
+    </property>
+    <property name="njopBngSppt" type="int">
+      <column name="njop_bng_sppt" />
+    </property>
+    <property name="njopSppt" type="int">
+      <column name="njop_sppt" />
+    </property>
+    <property name="njoptkpSppt" type="int">
+      <column name="njoptkp_sppt" />
+    </property>
+    <property name="njkpSppt" type="int">
+      <column name="njkp_sppt" />
+    </property>
+    <property name="pbbTerhutangSppt" type="int">
+      <column name="pbb_terhutang_sppt" />
+    </property>
+    <property name="faktorPengurangSppt" type="int">
+      <column name="faktor_pengurang_sppt" />
+    </property>
+    <property name="pbbYgHarusDibayarSppt" type="int">
+      <column name="pbb_yg_harus_dibayar_sppt" />
+    </property>
+    <property name="statusPembayaranSppt" type="string">
+      <column name="status_pembayaran_sppt" />
+    </property>
+    <property name="statusTagihanSppt" type="string">
+      <column name="status_tagihan_sppt" />
+    </property>
+    <property name="statusCetakSppt" type="string">
+      <column name="status_cetak_sppt" />
+    </property>
+    <property name="tglTerbitSppt" type="date">
+      <column name="tgl_terbit_sppt" />
+    </property>
+    <property name="tglCetakSppt" type="date">
+      <column name="tgl_cetak_sppt" />
+    </property>
+    <property name="nipPencetakSppt" type="string">
+      <column name="nip_pencetak_sppt" />
+    </property>
+  </class>
+</hibernate-mapping>
