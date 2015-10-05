@@ -9,8 +9,10 @@ public class FormattedNop {
 	private String kdBlok;
 	private String noUrut;
 	private String kdJnsOp;
+	private String formattedNop;
 	
 	public FormattedNop(String formattedNop) {
+		this.setFormattedNop(formattedNop);
 		setFormattedNop(formattedNop);
 	}
 	
@@ -78,6 +80,10 @@ public class FormattedNop {
 
 	public void setKdJnsOp(String kdJnsOp) {
 		this.kdJnsOp = kdJnsOp;
+	}
+
+	public String getFormattedNop() {
+		return formattedNop;
 	}
 	
 }
