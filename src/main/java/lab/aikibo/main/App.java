@@ -3,6 +3,7 @@ package lab.aikibo.main;
 import java.io.File;
 import java.io.FileNotFoundException;
 
+import lab.aikibo.util.FormattedNop;
 import lab.aikibo.util.PenembakJitu;
 
 public class App {
