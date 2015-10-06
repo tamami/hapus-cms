@@ -1,9 +1,11 @@
 package lab.aikibo.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Sppt {
+public class Sppt implements Serializable {
 	
+	private static final long serialVersionUID = 8083666477904096211L;
 	private String kdPropinsi;
 	private String kdDati2;
 	private String kdKecamatan;
@@ -162,252 +164,252 @@ public class Sppt {
 		this.kdTp = kdTp;
 	}
 
-	private String getNmWpSppt() {
+	public String getNmWpSppt() {
 		return nmWpSppt;
 	}
 
-	private void setNmWpSppt(String nmWpSppt) {
+	public void setNmWpSppt(String nmWpSppt) {
 		this.nmWpSppt = nmWpSppt;
 	}
 
-	private String getJlnWpSppt() {
+	public String getJlnWpSppt() {
 		return jlnWpSppt;
 	}
 
-	private void setJlnWpSppt(String jlnWpSppt) {
+	public void setJlnWpSppt(String jlnWpSppt) {
 		this.jlnWpSppt = jlnWpSppt;
 	}
 
-	private String getBlokKavNoWpSppt() {
+	public String getBlokKavNoWpSppt() {
 		return blokKavNoWpSppt;
 	}
 
-	private void setBlokKavNoWpSppt(String blokKavNoWpSppt) {
+	public void setBlokKavNoWpSppt(String blokKavNoWpSppt) {
 		this.blokKavNoWpSppt = blokKavNoWpSppt;
 	}
 
-	private String getRwWpSppt() {
+	public String getRwWpSppt() {
 		return rwWpSppt;
 	}
 
-	private void setRwWpSppt(String rwWpSppt) {
+	public void setRwWpSppt(String rwWpSppt) {
 		this.rwWpSppt = rwWpSppt;
 	}
 
-	private String getRtWpSppt() {
+	public String getRtWpSppt() {
 		return rtWpSppt;
 	}
 
-	private void setRtWpSppt(String rtWpSppt) {
+	public void setRtWpSppt(String rtWpSppt) {
 		this.rtWpSppt = rtWpSppt;
 	}
 
-	private String getKelurahanWpSppt() {
+	public String getKelurahanWpSppt() {
 		return kelurahanWpSppt;
 	}
 
-	private void setKelurahanWpSppt(String kelurahanWpSppt) {
+	public void setKelurahanWpSppt(String kelurahanWpSppt) {
 		this.kelurahanWpSppt = kelurahanWpSppt;
 	}
 
-	private String getKotaWpSppt() {
+	public String getKotaWpSppt() {
 		return kotaWpSppt;
 	}
 
-	private void setKotaWpSppt(String kotaWpSppt) {
+	public void setKotaWpSppt(String kotaWpSppt) {
 		this.kotaWpSppt = kotaWpSppt;
 	}
 
-	private String getKdPosWpSppt() {
+	public String getKdPosWpSppt() {
 		return kdPosWpSppt;
 	}
 
-	private void setKdPosWpSppt(String kdPosWpSppt) {
+	public void setKdPosWpSppt(String kdPosWpSppt) {
 		this.kdPosWpSppt = kdPosWpSppt;
 	}
 
-	private String getNpwpSppt() {
+	public String getNpwpSppt() {
 		return npwpSppt;
 	}
 
-	private void setNpwpSppt(String npwpSppt) {
+	public void setNpwpSppt(String npwpSppt) {
 		this.npwpSppt = npwpSppt;
 	}
 
-	private String getNoPersilSppt() {
+	public String getNoPersilSppt() {
 		return noPersilSppt;
 	}
 
-	private void setNoPersilSppt(String noPersilSppt) {
+	public void setNoPersilSppt(String noPersilSppt) {
 		this.noPersilSppt = noPersilSppt;
 	}
 
-	private String getKdKlsTanah() {
+	public String getKdKlsTanah() {
 		return kdKlsTanah;
 	}
 
-	private void setKdKlsTanah(String kdKlsTanah) {
+	public void setKdKlsTanah(String kdKlsTanah) {
 		this.kdKlsTanah = kdKlsTanah;
 	}
 
-	private String getThnAwalKlsTanah() {
+	public String getThnAwalKlsTanah() {
 		return thnAwalKlsTanah;
 	}
 
-	private void setThnAwalKlsTanah(String thnAwalKlsTanah) {
+	public void setThnAwalKlsTanah(String thnAwalKlsTanah) {
 		this.thnAwalKlsTanah = thnAwalKlsTanah;
 	}
 
-	private String getKdKlsBng() {
+	public String getKdKlsBng() {
 		return kdKlsBng;
 	}
 
-	private void setKdKlsBng(String kdKlsBng) {
+	public void setKdKlsBng(String kdKlsBng) {
 		this.kdKlsBng = kdKlsBng;
 	}
 
-	private String getThnAwalKlsBng() {
+	public String getThnAwalKlsBng() {
 		return thnAwalKlsBng;
 	}
 
-	private void setThnAwalKlsBng(String thnAwalKlsBng) {
+	public void setThnAwalKlsBng(String thnAwalKlsBng) {
 		this.thnAwalKlsBng = thnAwalKlsBng;
 	}
 
-	private Date getTglJatuhTempoSppt() {
+	public Date getTglJatuhTempoSppt() {
 		return tglJatuhTempoSppt;
 	}
 
-	private void setTglJatuhTempoSppt(Date tglJatuhTempoSppt) {
+	public void setTglJatuhTempoSppt(Date tglJatuhTempoSppt) {
 		this.tglJatuhTempoSppt = tglJatuhTempoSppt;
 	}
 
-	private long getLuasBumiSppt() {
+	public long getLuasBumiSppt() {
 		return luasBumiSppt;
 	}
 
-	private void setLuasBumiSppt(long luasBumiSppt) {
+	public void setLuasBumiSppt(long luasBumiSppt) {
 		this.luasBumiSppt = luasBumiSppt;
 	}
 
-	private long getLuasBngSppt() {
+	public long getLuasBngSppt() {
 		return luasBngSppt;
 	}
 
-	private void setLuasBngSppt(long luasBngSppt) {
+	public void setLuasBngSppt(long luasBngSppt) {
 		this.luasBngSppt = luasBngSppt;
 	}
 
-	private long getNjopBumiSppt() {
+	public long getNjopBumiSppt() {
 		return njopBumiSppt;
 	}
 
-	private void setNjopBumiSppt(long njopBumiSppt) {
+	public void setNjopBumiSppt(long njopBumiSppt) {
 		this.njopBumiSppt = njopBumiSppt;
 	}
 
-	private long getNjopBngSppt() {
+	public long getNjopBngSppt() {
 		return njopBngSppt;
 	}
 
-	private void setNjopBngSppt(long njopBngSppt) {
+	public void setNjopBngSppt(long njopBngSppt) {
 		this.njopBngSppt = njopBngSppt;
 	}
 
-	private long getNjopSppt() {
+	public long getNjopSppt() {
 		return NjopSppt;
 	}
 
-	private void setNjopSppt(long njopSppt) {
+	public void setNjopSppt(long njopSppt) {
 		NjopSppt = njopSppt;
 	}
 
-	private long getNjoptkpSppt() {
+	public long getNjoptkpSppt() {
 		return njoptkpSppt;
 	}
 
-	private void setNjoptkpSppt(long njoptkpSppt) {
+	public void setNjoptkpSppt(long njoptkpSppt) {
 		this.njoptkpSppt = njoptkpSppt;
 	}
 
-	private long getNjkpSppt() {
+	public long getNjkpSppt() {
 		return njkpSppt;
 	}
 
-	private void setNjkpSppt(long njkpSppt) {
+	public void setNjkpSppt(long njkpSppt) {
 		this.njkpSppt = njkpSppt;
 	}
 
-	private long getPbbTerhutangSppt() {
+	public long getPbbTerhutangSppt() {
 		return pbbTerhutangSppt;
 	}
 
-	private void setPbbTerhutangSppt(long pbbTerhutangSppt) {
+	public void setPbbTerhutangSppt(long pbbTerhutangSppt) {
 		this.pbbTerhutangSppt = pbbTerhutangSppt;
 	}
 
-	private long getFaktorPengurangSppt() {
+	public long getFaktorPengurangSppt() {
 		return faktorPengurangSppt;
 	}
 
-	private void setFaktorPengurangSppt(long faktorPengurangSppt) {
+	public void setFaktorPengurangSppt(long faktorPengurangSppt) {
 		this.faktorPengurangSppt = faktorPengurangSppt;
 	}
 
-	private long getPbbYgHarusDibayarSppt() {
+	public long getPbbYgHarusDibayarSppt() {
 		return pbbYgHarusDibayarSppt;
 	}
 
-	private void setPbbYgHarusDibayarSppt(long pbbYgHarusDibayarSppt) {
+	public void setPbbYgHarusDibayarSppt(long pbbYgHarusDibayarSppt) {
 		this.pbbYgHarusDibayarSppt = pbbYgHarusDibayarSppt;
 	}
 
-	private String getStatusPembayaranSppt() {
+	public String getStatusPembayaranSppt() {
 		return statusPembayaranSppt;
 	}
 
-	private void setStatusPembayaranSppt(String statusPembayaranSppt) {
+	public void setStatusPembayaranSppt(String statusPembayaranSppt) {
 		this.statusPembayaranSppt = statusPembayaranSppt;
 	}
 
-	private String getStatusTagihanSppt() {
+	public String getStatusTagihanSppt() {
 		return statusTagihanSppt;
 	}
 
-	private void setStatusTagihanSppt(String statusTagihanSppt) {
+	public void setStatusTagihanSppt(String statusTagihanSppt) {
 		this.statusTagihanSppt = statusTagihanSppt;
 	}
 
-	private String getStatusCetakSppt() {
+	public String getStatusCetakSppt() {
 		return statusCetakSppt;
 	}
 
-	private void setStatusCetakSppt(String statusCetakSppt) {
+	public void setStatusCetakSppt(String statusCetakSppt) {
 		this.statusCetakSppt = statusCetakSppt;
 	}
 
-	private Date getTglTerbitSppt() {
+	public Date getTglTerbitSppt() {
 		return tglTerbitSppt;
 	}
 
-	private void setTglTerbitSppt(Date tglTerbitSppt) {
+	public void setTglTerbitSppt(Date tglTerbitSppt) {
 		this.tglTerbitSppt = tglTerbitSppt;
 	}
 
-	private Date getTglCetakSppt() {
+	public Date getTglCetakSppt() {
 		return tglCetakSppt;
 	}
 
-	private void setTglCetakSppt(Date tglCetakSppt) {
+	public void setTglCetakSppt(Date tglCetakSppt) {
 		this.tglCetakSppt = tglCetakSppt;
 	}
 
-	private String getNipPencetakSppt() {
+	public String getNipPencetakSppt() {
 		return nipPencetakSppt;
 	}
 
-	private void setNipPencetakSppt(String nipPencetakSppt) {
+	public void setNipPencetakSppt(String nipPencetakSppt) {
 		this.nipPencetakSppt = nipPencetakSppt;
 	}
-
+	
 }
