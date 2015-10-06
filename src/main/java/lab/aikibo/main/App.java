@@ -8,6 +8,7 @@ import lab.aikibo.util.PenembakJitu;
 
 public class App {
   public static void main(String args[]) {
+	System.out.println(args[0]);
     if(args.length != 1) {
       System.err.println("Gunakan : java -jar clean.jar namafile.txt");
       return;
