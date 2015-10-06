@@ -45,7 +45,8 @@ public class PenembakJitu {
       logger.info(nop + " - " + thn + " dibaca");
     }
     
-    List<Sppt> resultData = spptManager.getDaftarSpptFormatBpd(data, "2015");
-    return true;
+    if(spptManager.batalkanSppt(data, "2015"))
+    	return true;
+    else return false;
   }
 }

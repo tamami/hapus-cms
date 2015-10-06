@@ -13,10 +13,10 @@ public class FormattedNop {
 	
 	public FormattedNop(String formattedNop) {
 		this.setFormattedNop(formattedNop);
-		setFormattedNop(formattedNop);
+		parseFormattedNop(formattedNop);
 	}
 	
-	public void setFormattedNop(String formattedNop) {
+	public void parseFormattedNop(String formattedNop) {
 		setKdPropinsi(formattedNop.substring(0,2));
 		setKdDati2(formattedNop.substring(3,5));
 		setKdKecamatan(formattedNop.substring(6,9));
@@ -84,6 +84,10 @@ public class FormattedNop {
 
 	public String getFormattedNop() {
 		return formattedNop;
+	}
+	
+	public void setFormattedNop(String formattedNop) {
+		this.formattedNop = formattedNop;
 	}
 	
 }

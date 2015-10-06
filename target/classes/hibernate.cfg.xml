@@ -16,5 +16,14 @@
 
     <!-- Enable Hibernate's automatic session context management -->
     <property name="current_session_context_class">thread</property>
+    
+    <!-- bonecp connection pool -->
+    <property name="hibernate.connection.provider_class">com.jolbox.bonecp.provider.BoneCPConnectionProvider</property>
+    <property name="bonecp.minConnectionsPerPartition">5</property>
+    <property name="bonecp.maxConnectionsPerPartition">10</property>
+    <property name="bonecp.partitionCount">1</property>
+    
+    <!-- Mapping -->
+    <mapping resource="lab/aikibo/mapping/Sppt.hbm.xml" />
   </session-factory>
 </hibernate-configuration>
