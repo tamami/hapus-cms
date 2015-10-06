@@ -14,7 +14,7 @@ public class Sppt implements Serializable {
 	private String noUrut;
 	private String kdJnsOp;
 	private String thnPajakSppt;
-	private int siklusSppt;
+	private long siklusSppt;
 	private String kdKanwilBank;
 	private String kdKppbbBank;
 	private String kdBankTunggal;
@@ -116,11 +116,11 @@ public class Sppt implements Serializable {
 		this.thnPajakSppt = thnPajakSppt;
 	}
 
-	public int getSiklusSppt() {
+	public long getSiklusSppt() {
 		return siklusSppt;
 	}
 
-	public void setSiklusSppt(int siklusSppt) {
+	public void setSiklusSppt(long siklusSppt) {
 		this.siklusSppt = siklusSppt;
 	}
 

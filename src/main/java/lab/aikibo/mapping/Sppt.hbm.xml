@@ -15,7 +15,7 @@
       <key-property name="kdJnsOp" column="kd_jns_op" type="string" />
       <key-property name="thnPajakSppt" column="thn_pajak_sppt" type="string" />
     </composite-id>
-    <property name="siklusSppt" type="int">
+    <property name="siklusSppt" type="long">
       <column name="siklus_sppt" />
     </property>
     <property name="kdKanwilBank" type="string">
@@ -78,34 +78,34 @@
     <property name="tglJatuhTempoSppt" type="date">
       <column name="tgl_jatuh_tempo_sppt" />
     </property>
-    <property name="luasBumiSppt" type="int">
+    <property name="luasBumiSppt" type="long">
       <column name="luas_bumi_sppt" />
     </property>
-    <property name="luasBngSppt" type="int">
+    <property name="luasBngSppt" type="long">
       <column name="luas_bng_sppt" />
     </property>
-    <property name="njopBumiSppt" type="int">
+    <property name="njopBumiSppt" type="long">
       <column name="njop_bumi_sppt" />
     </property>
-    <property name="njopBngSppt" type="int">
+    <property name="njopBngSppt" type="long">
       <column name="njop_bng_sppt" />
     </property>
-    <property name="njopSppt" type="int">
+    <property name="njopSppt" type="long">
       <column name="njop_sppt" />
     </property>
-    <property name="njoptkpSppt" type="int">
+    <property name="njoptkpSppt" type="long">
       <column name="njoptkp_sppt" />
     </property>
-    <property name="njkpSppt" type="int">
+    <property name="njkpSppt" type="long">
       <column name="njkp_sppt" />
     </property>
-    <property name="pbbTerhutangSppt" type="int">
+    <property name="pbbTerhutangSppt" type="long">
       <column name="pbb_terhutang_sppt" />
     </property>
-    <property name="faktorPengurangSppt" type="int">
+    <property name="faktorPengurangSppt" type="long">
       <column name="faktor_pengurang_sppt" />
     </property>
-    <property name="pbbYgHarusDibayarSppt" type="int">
+    <property name="pbbYgHarusDibayarSppt" type="long">
       <column name="pbb_yg_harus_dibayar_sppt" />
     </property>
     <property name="statusPembayaranSppt" type="string">
