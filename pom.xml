@@ -28,7 +28,7 @@
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
-      <version>5.0.1.Final</version>
+      <version>4.2.12.Final</version>
     </dependency>
 
     <!-- Hibernate library dependency start -->
@@ -56,6 +56,13 @@
       <version>3.1</version>
     </dependency>
     <!-- Hibernate library dependency end -->
+    
+    <!-- Spring Framework -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>4.2.1.RELEASE</version>
+    </dependency>
 
     <dependency>
       <groupId>javax.transaction</groupId>
